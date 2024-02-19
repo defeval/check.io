@@ -10,6 +10,10 @@ def is_even(num: int) -> bool:
     return num % 2 == 0
 
 
+def best_is_even(num: int) -> bool:
+    return num & 1 == 0
+
+
 print("Example:")
 print(is_even(2))
 print(is_even(3))

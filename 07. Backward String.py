@@ -1,9 +1,17 @@
-# Проитерировать строку создать новую переменнуюи вписать туда символы
+# You should return a given string in reverse order.
+#
+# Input: A string (str).
+#
+# Output: A string (str).
 
 
 def backward_string(val: str) -> str:
     # your code here
     return val[::-1]
+
+
+# Best
+best_backward_string = lambda val: val[::-1]
 
 
 if __name__ == '__main__':
